@@ -1,0 +1,56 @@
+/*
+    Stylesheet by Rudolf Winestock
+    Copyright © 2011-present
+    All Rights Reserved
+    contact: rudolf@winestockwebdesign.com
+*/
+
+/*
+    I'm flattered that you're taking the time to read my code.  I reserve copyright in order to cover my bases, but feel free to learn from it.  Reading other peoples code was part of the way that I learned.  The Readability addon (http://www.readability.com/) gives much of the inspiration for the design of my essays.  Since so many people use it to make websites bearable, I figured that I would cut out the middle man.
+*/
+
+body
+{
+    color: #363942;
+	background-color: #9eb6f7;
+	border-bottom: #363942;
+	border: 10px solid;
+	margin: 90px;
+	margin-top: 50px;
+}
+
+/*
+	The background image which I use for my essays is called Rice paper.  https://subtlepatterns.com/rice-paper/
+	It is free to use thanks to Atle Mo.  http://atlemo.com/
+  His site has many other free background images.
+*/
+
+h1
+{
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 3.5em;
+}
+
+h2
+{
+    text-align: center;
+    font-variant: small-caps;
+    line-height: .5em;
+}
+
+p
+{
+    /*Short lines mean that the eyes don't travel far in order to read.*/
+    width: 38em; /*There's very little padding so that the box hugs the paragraphs.  The lines of the box guide the eyes downward.*/
+    padding-top: 0.12em;
+    padding-bottom: 0.12em; /*Jagged right edges are unsightly, so I justify paragraphs.  Lines are short, so readability is unaffected.*/
+    text-align: justify; /*I try to imitate printed copy with the justified and indented paragraphs.*/
+    text-indent: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0; /*Between the short lines and the large letters, I'm trying to entice readers to go on.  "Just another line.  It's not much."*/
+    font-size: x-large;
+}
