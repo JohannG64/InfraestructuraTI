@@ -8,7 +8,6 @@
 /*
     I'm flattered that you're taking the time to read my code.  I reserve copyright in order to cover my bases, but feel free to learn from it.  Reading other peoples code was part of the way that I learned.  The Readability addon (http://www.readability.com/) gives much of the inspiration for the design of my essays.  Since so many people use it to make websites bearable, I figured that I would cut out the middle man.
 */
-
 body
 {
     color: #363942;
@@ -21,8 +20,7 @@ body
 
 a
 {
-    color: #363942;
-	background-color: #9eb6f7;
+    color: #250c7e;
 	margin: 90px;
 	margin-top: 50px;
 }
